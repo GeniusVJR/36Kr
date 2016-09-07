@@ -1,2 +1,2 @@
 # 36Kr
-36Kr APP .
+36Kr APP
