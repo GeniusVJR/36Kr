@@ -1,4 +1,4 @@
-package com.francis.a36kr.ui.adapter;
+package com.francis.a36kr.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;

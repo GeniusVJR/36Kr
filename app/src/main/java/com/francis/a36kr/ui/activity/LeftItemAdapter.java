@@ -47,6 +47,7 @@ public class LeftItemAdapter extends BaseAdapter{
 	public View getView(int i, View view, ViewGroup viewGroup) {
 		Holder holder = null;
 		if(view == null){
+			holder = new Holder();
 			view = mLayoutInflater.inflate(R.layout.item_left_menu_layout, null);
 			holder.item_left_view_img=(ImageView)view.findViewById(R.id.item_left_view_img);
 			holder.item_left_view_title=(TextView)view.findViewById(R.id.item_left_view_title);
